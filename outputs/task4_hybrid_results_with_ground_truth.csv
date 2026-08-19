@@ -1,0 +1,114 @@
+image_id,n_objects_detected,mean_area,density_class_heuristic,llm_raw_output,n_objects,density,count_error
+test_000,8,190.875,sparse," ```json
+{
+  ""image_id"": ""test_000"",
+  ""n_objects"": 8,
+  ""mean_area"": 190.9,
+  ""density_class"": ""dense"",
+  ""quality_flag"": ""no concerns""
+}
+```
+
+The image ""test\_000"" contains eight objects, with an average area of 190.9 pixels. The density appears to be high, suggesting a large number of objects. The image appears to be of good quality, with no concerns raised by the segmentation output. ",8,sparse,0
+test_001,14,200.64285714285714,sparse," {
+  ""image\_id"": ""test\_001"",
+  ""n\_objects"": 14,
+  ""mean\_area"": 200.6,
+  ""density\_class"": ""normal"",
+  ""quality\_flag"": ""no concerns""
+}
+
+A normal number of 14 objects with a mean area of approximately 200 pixels, no concerns detected. ",19,normal,-5
+test_002,26,219.6153846153846,normal," {
+""image\_id"": ""test\_002"",
+""n\_objects"": 26,
+""mean\_area"": 219.6,
+""density\_class"": ""dense"",
+""quality\_flag"": ""no concerns""
+}
+
+This image appears to be dense with objects, as indicated by the high number of detected objects and the large mean area. There are no apparent concerns with the quality of the segmentation or the mask. ",31,normal,-5
+test_003,19,203.42105263157896,normal," {
+  ""image\_id"": ""test\_003"",
+  ""n\_objects"": 19,
+  ""mean\_area"": 203.4,
+  ""density\_class"": ""normal"",
+  ""quality\_flag"": ""no concerns""
+}
+
+This image features a normal density of 19 objects with a mean area of 203.4 pixels, with no quality concerns. ",21,normal,-2
+test_004,43,329.13953488372096,dense," ```json
+{
+  ""image_id"": ""test_004"",
+  ""n_objects"": 43,
+  ""mean_area"": 329.1,
+  ""density_class"": ""dense"",
+  ""quality_flag"": ""no concerns""
+}
+```
+This image contains a high number of objects with an average area of 329.1 pixels, indicating a dense object distribution. There are no immediate quality concerns. ",75,dense,-32
+test_005,17,382.94117647058823,normal," {
+""image\_id"": ""test\_005"",
+""n\_objects"": 17,
+""mean\_area"": 382.9,
+""density\_class"": ""dense"",
+""quality\_flag"": ""no concerns""
+}
+
+The image contains a dense cluster of objects with a mean area of 382.9 pixels and an eccentricity of 0.657. The quality of the image and segmentation method is deemed satisfactory. ",49,clustered,-32
+test_006,8,197.5,sparse," ```json
+{
+  ""image_id"": ""test_006"",
+  ""n_objects"": 8,
+  ""mean_area"": 197.5,
+  ""density_class"": ""normal"",
+  ""quality_flag"": ""no concerns""
+}
+```
+This image was segmented using a trained U-Net model, and the resulting mask contained 8 distinct objects with a mean area of 197.5 pixels. The density of the objects can be classified as normal, and there are no concerns regarding the quality of the image. ",8,sparse,0
+test_007,23,205.91304347826087,normal," {
+  ""image\_id"": ""test\_007"",
+  ""n\_objects"": 23,
+  ""mean\_area"": 205.9,
+  ""density\_class"": ""normal"",
+  ""quality\_flag"": ""no concerns""
+}
+
+This microscopy image contains 23 objects, with an average area of 205.9 pixels. Based on the object count, the density class is normal. There are no concerns regarding the quality of the image. ",30,normal,-7
+test_008,23,240.0,normal," ```json
+{
+  ""image_id"": ""test_008"",
+  ""n_objects"": 23,
+  ""mean_area"": 240.0,
+  ""density_class"": ""normal"",
+  ""quality_flag"": ""no concerns""
+}
+```
+The U-Net segmentation model detected 23 objects in the microscopy image, with a mean object area of 240.0 pixels. Based on the object count, the image appears to be of normal density. There are no concerns regarding the quality of the image. ",28,normal,-5
+test_009,21,178.52380952380952,normal," {
+""image\_id"": ""test\_009"",
+""n\_objects"": 21,
+""mean\_area"": 178.5,
+""density\_class"": ""normal"",
+""quality\_flag"": ""no concerns""
+}
+
+The image contains 21 objects, with an average size of 178.5 pixels. The density appears to be normal, and there are no concerns regarding the quality of the image. ",24,normal,-3
+test_010,38,344.05263157894734,normal," {
+""image\_id"": ""test\_010"",
+""n\_objects"": 38,
+""mean\_area"": 344.1,
+""density\_class"": ""dense"",
+""quality\_flag"": ""no concerns""
+}
+
+This image contains a large number of objects, indicating a dense field of view. The mean object area is also quite high, suggesting that the objects are relatively large. There are no concerns with the image quality. ",78,dense,-40
+test_011,20,183.7,normal," {
+  ""image\_id"": ""test\_011"",
+  ""n\_objects"": 20,
+  ""mean\_area"": 183.7,
+  ""density\_class"": ""normal"",
+  ""quality\_flag"": ""no concerns""
+}
+
+The image contains 20 objects with an average area of 183.7 pixels. Based on the number of objects, the density of the objects is considered normal. There are no concerns with the quality of the image. ",30,clustered,-10

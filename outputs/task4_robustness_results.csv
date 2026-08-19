@@ -1,0 +1,5 @@
+base_image_id,corruption_type,ground_truth_n_objects,clean_prediction_n_objects,corrupted_prediction_n_objects,degradation
+test_000,blur,8,8,7,1
+test_000,lowcontrast,8,8,1,7
+test_004,blur,75,43,9,34
+test_004,lowcontrast,75,43,1,42

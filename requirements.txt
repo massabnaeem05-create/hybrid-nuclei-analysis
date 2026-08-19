@@ -1,0 +1,16 @@
+# Core numerical/data processing
+numpy
+pandas
+
+# Image processing and visualization
+Pillow
+matplotlib
+scikit-image
+scikit-learn
+
+# Deep learning
+torch
+torchvision
+
+# Local LLM/VLM interface
+ollama
